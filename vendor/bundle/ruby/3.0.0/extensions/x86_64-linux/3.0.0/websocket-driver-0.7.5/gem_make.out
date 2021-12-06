@@ -1,0 +1,15 @@
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/home/hart/.rbenv/versions/3.0.2/bin/ruby -I /home/hart/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20211206-23893-pzk6tp.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20211206-23893-jnewc7

@@ -1,0 +1,19 @@
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+/home/hart/.rbenv/versions/3.0.2/bin/ruby -I /home/hart/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20211206-23893-adpa34.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= clean
+
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\=
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /mnt/c/code/Szachy/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20211206-23893-4kbh08/byebug
