@@ -20,17 +20,10 @@ ActiveRecord::Schema.define(version: 2021_12_06_040129) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "games", force: :cascade do |t|
-    t.string "index"
-    t.string "description"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "player_games", id: false, force: :cascade do |t|
     t.integer "player_id"
-    t.integer "games_id"
-    t.index ["games_id"], name: "index_player_games_on_games_id"
+    t.integer "game_id"
+    t.index ["game_id"], name: "index_player_games_on_game_id"
     t.index ["player_id"], name: "index_player_games_on_player_id"
   end
 
